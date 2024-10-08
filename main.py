@@ -2,7 +2,7 @@
 menuItems = ["Taco","Burrito","Nachos","Soft Drink","Quit"]
 def menu():
     for i in range (1,6):
-        print(i, menuItems[i - 1])
+        print(str(i)+".", menuItems[i - 1])
 
 #salute
 print("Welcome to Taco Palace!  Please view the menu below and make a selection")
